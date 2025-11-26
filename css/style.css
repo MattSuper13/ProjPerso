@@ -9,12 +9,12 @@ img {
     width: 50%;
 }
 
-.mail {
-    width: 10px;
-    height: 10px;
+#mail {
+    width: 5%;
+    height: auto;
 }
 
-.discord {
-    width: 10px;
-    height: 10px;
+#discord {
+    width: 5%;
+    height: auto;
 }
