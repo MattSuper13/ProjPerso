@@ -22,4 +22,5 @@ img {
 #nav_button {
     border: 5px solid white;
     background-color: white;
+    border-radius: 25px;
 }
