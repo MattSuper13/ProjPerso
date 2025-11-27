@@ -18,3 +18,8 @@ img {
     width: 5%;
     height: auto;
 }
+
+#nav_button {
+    border: 5px solid white;
+    background-color: white;
+}
