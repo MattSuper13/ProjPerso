@@ -28,14 +28,25 @@
 
         <br/> <label for ="nat-select">Nationality :</label>
 
-        <select name="nationality" id="nat-select">
+        <!-- <select name="nationality" id="nat-select">
             <option value=""></option>
             <option value="ITA">Italy</option>
             <option value="FRA">France</option>
             <option value="SPA">Spain</option>
             <option value="UK">United Kingdom</option>
             <option value="POR">Portugal</option>
-        </select>
+        </select> -->
+
+        <input type="text" name="nationality" id="nationality" list="nationList">
+
+        <datalist id="nationList">
+            <option value="Italy"></option>
+            <option value="France"></option>
+            <option value="Spain"></option>
+            <option value="United Kingdom"></option>
+            <option value="Sweden"></option>
+            <option value="Ireland"></option>
+        </datalist>
 
         <br/> <label for="birthyear">Year of birth :</label>
 
@@ -62,7 +73,7 @@
 
         <br/> <label for="races">Races entered :</label>
 
-        <input type="text" id="races" name="races" required minlength="1" maxlength="3" size="10" /> 
+        <input type="text" id="races" name="races" required minlength="1" maxlength="3" size="10" />
 
         <br/> 
 
